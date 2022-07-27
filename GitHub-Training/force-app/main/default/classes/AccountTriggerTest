@@ -1,0 +1,15 @@
+
+@isTest
+public class AccountTriggerTest {
+    public  static  testmethod void BillingAddressTest(){
+        Account accObj = new Account();
+        accObj.Name = 'Test Code';
+        accObj.BillingCity = 'Nagpur';
+        accObj.BillingCountry = 'India';
+        accObj.BillingState = 'Maharastra';
+        accObj.BillingStreet = '152';
+        accObj.BillingPostalCode = '440034';
+        insert accObj;
+        
+    }
+}
